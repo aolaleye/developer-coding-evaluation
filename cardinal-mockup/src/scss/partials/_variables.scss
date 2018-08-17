@@ -1,0 +1,23 @@
+@import '../base/typography.scss';
+
+// ------------------
+// FONTS 
+// ------------------
+// font-family
+$font-light: Effra-Light;
+$font-regular: Effra-Regular;
+$font-bold: Effra-Medium;
+$font-extra-bold: Effra-Bold;
+
+// font-size
+$font-xsmall: .5em;
+
+
+// ------------------
+// IMAGES
+// ------------------
+// background-image
+$header-background: url("../assets/images/pic-hero.png");
+$gojo-background: url("../assets/images/pic-gojo-bg.png");
+$fifththird-background: url("../assets/images/pic-fifththird-bg.png");
+$chhn-background: url("../assets/images/pic-chhn-bg.png");

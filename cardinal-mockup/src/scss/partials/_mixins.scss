@@ -1,0 +1,30 @@
+// background image properties 
+@mixin background-image-properties {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+// text-align 
+@mixin center {
+    text-align: center;
+}
+@mixin left {
+    text-align: left;
+}
+@mixin right {
+    text-align: right;
+}
+
+
+// max width of page
+@mixin max-page-width {
+    max-width: 90%;
+    margin: auto;
+}
+
+// letter-spacing
+@mixin letter-spacing {
+    letter-spacing: 2px;
+    line-height: 2em;
+}

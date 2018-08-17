@@ -1,0 +1,15 @@
+@import '../partials/_variables.scss';
+@import '../partials/_mixins.scss';
+
+.solutions {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    @include center;
+        article {
+            @include max-page-width;
+            font-family: $font-regular;
+            @include letter-spacing;
+        }
+
+}
