@@ -4,7 +4,7 @@ import ad from '../assets/icons/icon-appdev.svg';
 import ba from '../assets/icons/icon-ba.svg';
 
 const Solutions = () => (
-    <section>
+    <section className="solutions">
 
         <article>
             <img src={bi} alt="logo" />
