@@ -7,7 +7,7 @@ import pg from '../assets/logos/logo-p&g.png';
 import rackroom from '../assets/logos/logo-rackroom.png';
 
 const Clients= () => (
-    <div>
+    <section>
         <div>
             <h3>Our Clients</h3>
             <p>Over the years, our team has had the distinction of working with a variety of brands in different industries. Here is a short list of some of the have worked with.</p>
@@ -30,7 +30,7 @@ const Clients= () => (
         <div>
             <img src={rackroom} alt="logo"/>
         </div>
-    </div>
+    </section>
 )
  
 export default Clients;
