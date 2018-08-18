@@ -3,13 +3,17 @@
 
 .solutions {
     background-color: #f0f0f0;
-    display: flex;
-    flex-direction: column;
-    @include center;
+    @include flexbox-column;
+    @include align-center;
+    padding: 6% 0 40% 0;
         article {
-            @include max-page-width;
-            font-family: $font-regular;
+            font-family: $font-light;
+            @include width-80;
             @include letter-spacing;
+            padding: 3% 0;
+            h3 {
+                font-family: $font-regular;
+            }
         }
 
 }

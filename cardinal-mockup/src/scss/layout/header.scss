@@ -8,14 +8,15 @@
     @include background-image-properties;
     background-position: 80% 20%; 
     div {
-        @include center;
-        @include max-page-width;
-        padding: 15% 0 0 0;
+        @include align-center;
+        @include width-90;
+        padding: 40px 0 0 0;
         h2 {
             color: white;
             font-family: $font-regular;
-            @include letter-spacing;
-            margin: 15% 0 0 0;
+            letter-spacing: 2px;
+            line-height: 2em;
+            margin: 40px 0 0 0;
         }
     }
 }

@@ -6,25 +6,60 @@
 }
 
 // text-align 
-@mixin center {
+@mixin align-center {
     text-align: center;
 }
-@mixin left {
+@mixin align-left {
     text-align: left;
 }
-@mixin right {
+@mixin align-right {
     text-align: right;
 }
 
-
-// max width of page
-@mixin max-page-width {
-    max-width: 90%;
+// width of page
+@mixin width-90 {
+    width: 90%;
+    margin: auto;
+}
+@mixin width-80 {
+    width: 80%;
+    margin: auto;
+}
+@mixin width-70 {
+    width: 70%;
     margin: auto;
 }
 
 // letter-spacing
 @mixin letter-spacing {
-    letter-spacing: 2px;
-    line-height: 2em;
+    letter-spacing: .5px;
+    line-height: 1.5em;
+}
+
+// flexbox
+@mixin flexbox-column {
+    display: flex;
+    flex-direction: column;
+}
+@mixin flexbox-row {
+    display: flex;
+    flex-direction: row;
+}
+
+// buttons
+@mixin button-white {
+    color: #18203d;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 30px;
+    font-family: $font-bold;
+}
+@mixin button-blue {
+    color: #fff;
+    background-color: #0085d9;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 30px;
+    font-family: $font-bold;
 }
