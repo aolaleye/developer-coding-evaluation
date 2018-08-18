@@ -6,30 +6,25 @@ import skanska from '../assets/logos/logo-skanska.png';
 import pg from '../assets/logos/logo-p&g.png';
 import rackroom from '../assets/logos/logo-rackroom.png';
 
-const Clients= () => (
-    <section>
-        <div>
+const clients = [{logo: fifththird, name: "fifth third bank"},
+                 {logo: chhn, name: "the christ hospital health network"},
+                 {logo: chs, name: "carolina healthcare system"},
+                 {logo: skanska, name: "skanska"},
+                 {logo: pg, name: "p&g"},
+                 {logo: rackroom, name: "rack room shoes"}];
+
+const Clients = () => (
+    <section className="clients">
+        <div className="client-info">
             <h3>Our Clients</h3>
             <p>Over the years, our team has had the distinction of working with a variety of brands in different industries. Here is a short list of some of the have worked with.</p>
         </div>
-        <div>
-            <img src={fifththird} alt="logo"/>
-        </div>
-        <div>
-            <img src={chhn} alt="logo"/>
-        </div>
-        <div>
-            <img src={chs} alt="logo"/>
-        </div>
-        <div>
-            <img src={skanska} alt="logo"/>
-        </div>
-        <div>
-            <img src={pg} alt="logo"/>
-        </div>
-        <div>
-            <img src={rackroom} alt="logo"/>
-        </div>
+
+        {clients.map((client, i) => (
+            <div className="client-logo">
+                <img key={i} src={client.logo} alt={client.name}/>
+            </div>
+        ))}
     </section>
 )
  

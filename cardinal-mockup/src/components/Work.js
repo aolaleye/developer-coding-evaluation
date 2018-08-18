@@ -5,9 +5,9 @@ import chhn from '../assets/images/pic-chhn.png';
 
 
 const Work = () => (
-    <section>
+    <section className="work">
 
-        <article>
+        <article className="work-gojo">
             <img src={gojo} alt="logo"/>
             <div>
                 <h3>Gojo</h3>
@@ -17,7 +17,7 @@ const Work = () => (
             </div>
         </article>
 
-        <article>
+        <article className="work-fifththird">
             <img src={fifththird} alt="logo"/>
             <div>
                 <h3>Fifth Third Bank</h3>
@@ -27,7 +27,7 @@ const Work = () => (
             </div>
         </article>
 
-        <article>
+        <article className="work-chhn">
             <img src={chhn} alt="logo"/>
             <div>
                 <h3>The Christ Hospital Health Network</h3>
