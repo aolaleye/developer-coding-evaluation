@@ -1,0 +1,36 @@
+@import '../partials/_variables.scss';
+@import '../partials/_mixins.scss';
+
+.clients {
+    background-color: #fff;
+    @include flexbox-column;
+    @include align-center;
+        div {
+            font-family: $font-regular;
+            @include letter-spacing;
+            padding: 5% 0;
+        }
+        .client-info {
+            @include width-90;
+            font-family: $font-light;
+            background-color: #383d4a;
+            color: white;
+            padding: 15% 0;
+            margin: -35% auto 3% auto;
+            box-shadow: 0px 0px 20px 0px #a7a7a7;
+            h3 {
+                @include width-80;
+                margin: 0 auto 20px auto;
+            }
+            p {
+                @include width-80;
+            }
+        }
+        .client-logo {
+            background-color: #fff;
+            @include width-90;
+            border: 2px solid #eaebed;
+            margin: 1.5% auto;
+        }
+
+}
