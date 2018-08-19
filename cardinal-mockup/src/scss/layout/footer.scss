@@ -1,0 +1,19 @@
+@import '../partials/_variables.scss';
+@import '../partials/_mixins.scss';
+
+.footer {
+    background-color: #d8d8d8;
+    @include align-center;
+    @include flexbox-column;
+    font-family: $font-regular;
+    font-size: $font-xsmall;
+    color: #4f4e4e;
+    padding: 20px 0;
+    .social-icons {
+        @include flexbox-row;
+        justify-content: center;
+        img {
+            margin: 10px 15px;
+        }
+    }
+}

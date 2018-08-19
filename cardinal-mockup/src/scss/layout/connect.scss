@@ -1,0 +1,85 @@
+@import '../partials/_variables.scss';
+@import '../partials/_mixins.scss';
+
+.connect {
+    background-color: #eeeeee;
+    @include align-center;
+    @include flexbox-column;
+    letter-spacing: .3px;
+    line-height: 1.4em;
+    padding: 30px 0 10px 0;
+    .connect-info {
+        // border-bottom: 1px solid gray;
+        // margin: 0 20px;
+        @include width-90;
+        padding: 0 0 40px 0;
+        h3 {
+            margin: 20px auto 0 auto;
+            color: $dark-blue;
+            font-family: $font-regular;
+            font-size: 1.65em;
+        }
+        p {
+            margin: 15px auto 30px auto;
+            letter-spacing: .3px;
+        }
+        form {
+            .form-input {
+                font-family: $font-light;
+                font-size: $font-small;
+                @include width-90;
+                padding: 15px 15px;
+                border: 1px solid #a9a9a9;
+                border-radius: 5px;
+                margin: 8px auto;
+            }
+            .form-submit {
+                @include button-blue;
+                font-family: $font-regular;
+                padding: 15px 40px;
+                margin: 10px auto;
+            }
+        }
+    }
+    .contact-info {
+        h4 {
+            font-family: $font-extra-bold;
+            font-size: 1.1em;
+            color: $dark-blue;
+        }
+        .contact-person {
+            h4 {
+                margin: 0 auto 10px auto;
+            }
+            p {
+                margin: 0 auto;
+                font-size: .95em;
+                strong {
+                    font-family: font-extra-bold;
+                    color: $dark-blue;
+                }
+            }
+        }
+        .contact-address {
+            margin: 40px auto 30px auto;
+            h4 {
+                margin: 0 auto;
+            }
+            address {
+                margin: 10px auto 10px auto;
+                font-style: normal;
+                font-size: .95em;
+            }
+            iframe {
+                border: 1px solid #a9a9a9;
+                border-radius: 8px;
+                margin: 20px auto;
+            }
+            a {
+                color: #0085d9;
+                font-family: $font-bold;
+                font-size: .9em;
+            }
+        }
+    }
+}
