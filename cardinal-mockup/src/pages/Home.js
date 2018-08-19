@@ -5,7 +5,7 @@ import Clients from '../components/Clients';
 import Work from '../components/Work';
 import Connect from '../components/Connect';
 import Footer from '../components/Footer';
-import '../scss/App.css';
+import '../scss/Home.css';
 
 class Home extends Component {
   render() {

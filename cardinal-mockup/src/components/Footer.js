@@ -4,12 +4,12 @@ import facebook from '../assets/icons/icon-facebook.svg';
 import googleplus from '../assets/icons/icon-g+.svg';
 
 const Footer = () => (
-    <footer>
-        <p>&copy;2016 Cardinal Solutions. All rights reserved.</p>
-        <div>
-            <img src={twitter} alt="logo"/>
-            <img src={facebook} alt="logo"/>
-            <img src={googleplus} alt="logo"/>
+    <footer className="footer">
+        <p>&copy; 2016 Cardinal Solutions. All rights reserved.</p>
+        <div className="social-icons">
+            <img src={twitter} alt="twitter logo"/>
+            <img src={facebook} alt="facebook logo"/>
+            <img src={googleplus} alt="google plus logo"/>
         </div>
     </footer>
 )

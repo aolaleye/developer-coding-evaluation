@@ -15,7 +15,7 @@ const Solutions = () => (
         <article>
             <img src={ad} alt="logo" />
             <h3>App Development</h3>
-            <p>Our mobile specialists work ot create rich, easy-to-use consumer or enterprise experiences for IOS, Android.</p>
+            <p>Our mobile specialists work to create rich, easy-to-use consumer or enterprise experiences for IOS, Android.</p>
         </article>
 
         <article>
