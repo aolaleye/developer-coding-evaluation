@@ -1,7 +1,7 @@
 @import '../base/typography.scss';
 
 // ------------------
-// FONTS 
+// FONTS
 // ------------------
 // font-family
 $font-light: Effra-Light;
@@ -10,7 +10,13 @@ $font-bold: Effra-Medium;
 $font-extra-bold: Effra-Bold;
 
 // font-size
-$font-xsmall: .5em;
+$font-xsmall: .8em;
+$font-small: 1em;
+$font-medium: 1.3em;
+$font-large: 1.8em;
+
+// colors
+$dark-blue: #18203d;
 
 
 // ------------------

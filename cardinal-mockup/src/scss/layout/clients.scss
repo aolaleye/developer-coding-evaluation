@@ -5,6 +5,7 @@
     background-color: #fff;
     @include flexbox-column;
     @include align-center;
+    padding: 0 0 10px 0; 
         div {
             font-family: $font-regular;
             @include letter-spacing;
@@ -15,8 +16,8 @@
             font-family: $font-light;
             background-color: #383d4a;
             color: white;
-            padding: 15% 0;
-            margin: -35% auto 3% auto;
+            padding: 40px 0;
+            margin: -110px auto 10px auto;
             box-shadow: 0px 0px 20px 0px #a7a7a7;
             h3 {
                 @include width-80;
@@ -24,6 +25,7 @@
             }
             p {
                 @include width-80;
+                font-size: $font-xsmall;
             }
         }
         .client-logo {

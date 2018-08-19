@@ -5,14 +5,23 @@
     background-color: #f0f0f0;
     @include flexbox-column;
     @include align-center;
-    padding: 6% 0 40% 0;
+    letter-spacing: .3px;
+    padding: 25px 0 130px 0;
         article {
             font-family: $font-light;
-            @include width-80;
-            @include letter-spacing;
-            padding: 3% 0;
+            @include width-70;
+            padding: 15px 0;
             h3 {
-                font-family: $font-regular;
+                color: $dark-blue;
+                // font-family: $font-regular;
+                font-size: $font-medium;
+                margin: 12px auto;
+            }
+            p {
+                margin: 0 auto;
+                font-size: $font-xsmall;
+                line-height: 1.5em;
+                // font-family: $font-regular;
             }
         }
 
