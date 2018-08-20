@@ -5,10 +5,10 @@
     background-color: #d8d8d8;
     @include align-center;
     @include flexbox-column;
-    font-family: $font-regular;
+    font-family: $font-bold;
     font-size: $font-xsmall;
     color: #4f4e4e;
-    padding: 20px 0;
+    padding: 25px 0;
     .social-icons {
         @include flexbox-row;
         justify-content: center;

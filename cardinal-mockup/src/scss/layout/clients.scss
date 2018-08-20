@@ -2,37 +2,104 @@
 @import '../partials/_mixins.scss';
 
 .clients {
-    background-color: #fff;
-    @include flexbox-column;
-    @include align-center;
     padding: 0 0 10px 0; 
-        div {
-            font-family: $font-regular;
-            @include letter-spacing;
-            padding: 5% 0;
-        }
+    .clients-container {
+        @include flexbox-column;
+        @include align-center;
         .client-info {
             @include width-90;
+            @include letter-spacing;
             font-family: $font-light;
             background-color: #383d4a;
             color: white;
-            padding: 40px 0;
+            padding: 50px 0;
             margin: -110px auto 10px auto;
-            box-shadow: 0px 0px 20px 0px #a7a7a7;
+            box-shadow: 0px 0px 20px 3px #cacaca;
             h3 {
-                @include width-80;
-                margin: 0 auto 20px auto;
+                margin: 0 auto 15px auto;
             }
             p {
-                @include width-80;
+                width: 90%;
+                margin: auto;
                 font-size: $font-xsmall;
             }
         }
         .client-logo {
             background-color: #fff;
             @include width-90;
+            @include flexbox-column;
+            align-items: center;
+            justify-content: center;
             border: 2px solid #eaebed;
             margin: 1.5% auto;
+            min-height: 90px;
+            .skanska {
+                max-width: 40%;
+            }
+            .pg {
+                max-width: 23%;
+            }
+            .rackroom {
+                max-width: 18%;
+            }
         }
+    }
+
+}
+
+@include tablet-portrait {
+    .clients {
+        .clients-container {
+            @include width-90;
+            @include flexbox-row;
+            flex-wrap: wrap;
+            padding: 0;
+            margin: -60px auto 40px auto;
+            :nth-child(6) {
+                order: 5;
+            }
+            .client-info {
+                width: 37%;
+                flex-grow: 2;
+                padding: 30px 20px;
+                margin: 1%;
+                line-height: 1em;
+                @include align-left;
+                h3 {
+                    @include width-90;
+                    margin: 0 auto 15px auto;
+                }
+                p {
+                    font-size: .7em;
+                }
+            }
+            .client-logo {
+                flex-grow: 1;
+                width: 20%;
+                height: 100%;
+                margin: 1%;
+                padding: 4.5% 0;
+                .fifththird {
+                    max-width: 80%;
+                }
+                .chhn {
+                    max-width: 80%;
+                }
+                .chs {
+                    max-width: 80%;
+                }
+                .skanska {
+                    max-width: 80%;
+                }
+                .pg {
+                    max-width: 50%;
+                }
+                .rackroom {
+                    max-width: 50%;
+                }
+            }
+        }
+    
+    }
 
 }
