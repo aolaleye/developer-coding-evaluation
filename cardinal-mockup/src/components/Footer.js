@@ -7,9 +7,9 @@ const Footer = () => (
     <footer className="footer">
         <p>&copy; 2016 Cardinal Solutions. All rights reserved.</p>
         <div className="social-icons">
-            <img src={twitter} alt="twitter logo"/>
-            <img src={facebook} alt="facebook logo"/>
-            <img src={googleplus} alt="google plus logo"/>
+            <img src={twitter} alt="twitter"/>
+            <img src={facebook} alt="facebook"/>
+            <img src={googleplus} alt="google plus"/>
         </div>
     </footer>
 )
