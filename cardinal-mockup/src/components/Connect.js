@@ -32,7 +32,7 @@ const Connect = () => (
             </div>
             <div className="contact-address">
                 <h4>Come by our office</h4>
-                <address>222 S. Church St. Suite 500,<br/>Charlotte, NC 28202</address>
+                <p>222 S. Church St. Suite 500,<br/>Charlotte, NC 28202</p>
                 <iframe title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.1687454537964!2d-80.84853038477098!3d35.22716916234709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a02eff060615%3A0x48d940188845f7fb!2s222+S+Church+St+%23500%2C+Charlotte%2C+NC+28202!5e0!3m2!1sen!2sus!4v1534518731382" width="150" height="150" frameBorder="0"></iframe>
                 <br/>
                 <a href="https://goo.gl/maps/uTYUd56ztkM2">Find parking on our map!</a>
