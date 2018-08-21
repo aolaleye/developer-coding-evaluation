@@ -80,3 +80,198 @@
         overflow: hidden;
     }
 }
+
+@include tablet-portrait {
+    .work {
+        article {
+            @include flexbox-row;
+            justify-content: center;
+            align-items: flex-start;
+            h3 {
+                font-size: 1.1em;
+                margin: 30px auto 2px auto;
+            }
+            h4 {
+                font-size: .7em;
+            }
+            p {
+                font-size: $font-xsmall;
+            }
+            button {
+                padding: 10px 15px;
+                font-size: .7em;
+            }
+        }
+        .work-gojo {
+            background-position: 0% 0%;
+            padding: 20px 0 0 0;
+            img {
+                width: 40%;
+                height: 40%;
+                margin: 0 25px 0 55px;
+            }
+            div {
+                width: 40%;
+                height: 40%;
+                margin: 20px 0 0 25px;
+                p {
+                    margin: 10px 100px 10px auto;
+                }
+                button {
+                    padding: 10px 15px;
+                    font-size: .7em;
+                }
+            }
+        }
+        .work-fifththird {
+            flex-direction: row-reverse;
+            background-position: 100% 50%; 
+            @include align-left;
+            padding: 40px 0 0 0;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            img {
+                width: 70%;
+                height: 70%;
+                margin: 0 -140px 0 0;
+            }
+            div {
+                width: 30%;
+                height: 30%;
+                margin: 40px 0 0 60px;
+                h3 {
+                    margin: 0 auto 5px 0;
+                }
+                p {
+                    margin: 10px auto;
+                }
+            }
+        }
+        .work-chhn {
+            background-position: 80% 0%;
+            margin: -100px 0 0 0;
+            position: relative;
+            z-index: 2;
+            overflow: hidden;
+            img {
+                width: 50%;
+                height: 50%;
+                margin: -50px 0 0 -75px;
+            }
+            div {
+                width: 50%;
+                height: 50%;
+                margin: 0 0 0 20px;
+                p {
+                    margin: 10px auto;
+                }
+            }
+        }
+    }
+}
+
+@include tablet-landscape {
+    .work {
+        article {
+            h3 {
+                font-size: 1.3em;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: $font-xsmall;
+            }
+        }
+        .work-gojo {
+            div {
+                margin: 60px 0 0 25px;
+                p {
+                    margin: 10px 150px 10px auto;
+                }
+                button {
+                    padding: 10px 20px;
+                    font-size: $font-xsmall;
+                }
+            }
+        }
+        .work-fifththird {
+            div {
+                margin: 80px 0 0 60px;
+                p {
+                    margin: 10px 50px 10px auto;
+                }
+            }
+        }
+        .work-chhn {
+            img {
+                margin: -55px 0 0 -245px;
+            }
+            div {
+                width: 30%;
+                height: 30%;
+                margin: 20px 0 0 80px;
+            }
+        }
+    }
+}
+
+@include desktop {
+    .work {
+        article {
+            p {
+                font-size: 1em;
+                line-height: 1.7em;
+            }
+        }
+        .work-gojo {
+            div {
+                margin: 80px 0 0 25px;
+            }
+        }
+        .work-fifththird {
+            img {
+                width: 70%;
+                height: 70%;
+                margin: 0 -240px 0 0;
+            }
+        }
+        .work-chhn {
+            margin: -150px 0 0 0;
+            img {
+                margin: -60px 0 0 -300px;
+            }
+        }
+    }
+}
+
+@include large-desktop {
+    .work {
+        article {
+            h3 {
+                font-size: 1.4em;
+            }
+            button {
+                font-size: .95em;
+            }
+        }
+        .work-gojo {
+            div {
+                margin: 120px 0 0 25px;
+                button {
+                    font-size: .95em;
+                }
+            }
+        }
+        .work-fifththird {
+            div {
+                margin: 200px 0 0 60px;
+            }
+        }
+        .work-chhn {
+            margin: -150px 0 0 0;
+            div {
+                margin: 90px 0 0 80px;
+            }
+        }
+    }
+}

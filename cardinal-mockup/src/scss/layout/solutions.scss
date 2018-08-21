@@ -16,6 +16,24 @@
             img {
                 width: 2.6em;
             }
+            .bi {
+                &:hover {
+                    transition: all .4s ease-out;
+                    transform: rotateZ(360deg);
+                }
+            }
+            .ad {
+                &:hover {
+                    transition: all .8s ease-out;
+                    transform: rotateY(360deg);
+                }
+            }
+            .ba {
+                &:hover {
+                    transition: all .3s ease-out;
+                    transform: scale(1.1);
+                }
+            }
             h3 {
                 color: $dark-blue;
                 text-shadow: 0px 0px #18203d;
@@ -28,7 +46,6 @@
                 line-height: 1.5em;
             }
         }
-
     }
 }
 
@@ -41,7 +58,7 @@
             article {
                 @include align-left;
                 padding: 15px 0;
-                margin: 0 5px;
+                margin: 0 1.5%;
                 img {
                     width: 1.4em;
                     float: left;
@@ -52,20 +69,58 @@
                     margin: 0 0 12px 30px;
                 }
                 p {
-                    margin: 0 20px 0 30px;
-                    font-size: .7em;
+                    margin: 0 0 0 30px;
                 }
             }
-    
         }
     }
-
 }
 
 @include desktop {
     .solutions {
+        padding: 25px 0 90px 0;
         div {
-            @include width-70;
+            article {
+                @include align-left;
+                padding: 15px 0;
+                margin: 0 2.5%;
+                img {
+                    width: 2em;
+                    float: left;
+                }
+                h3 {
+                    font-size: 1.3em;
+                    letter-spacing: 1px;
+                    margin: 0 0 12px 50px;
+                }
+                p {
+                    font-size: 1em;
+                    margin: 0 0 12px 50px;
+                    line-height: 1.7em;
+                }
+            }
+        }
+    }
+}
+
+@include large-desktop {
+    .solutions {
+        div {
+            article {
+                margin: 0 2%;
+                img {
+                    width: 2.3em;
+                    float: left;
+                }
+                h3 {
+                    font-size: 1.4em;
+                    margin: 0 0 12px 53px;
+                }
+                p {
+                    font-size: 1em;
+                    margin: 0 0 12px 53px;
+                }
+            }
         }
     }
 }

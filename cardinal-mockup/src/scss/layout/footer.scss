@@ -5,7 +5,7 @@
     background-color: #d8d8d8;
     @include align-center;
     @include flexbox-column;
-    font-family: $font-bold;
+    font-family: $font-regular;
     font-size: $font-xsmall;
     color: #4f4e4e;
     padding: 25px 0;
@@ -15,5 +15,13 @@
         img {
             margin: 10px 15px;
         }
+    }
+}
+
+@include tablet-landscape {
+    .footer {
+        @include flexbox-row;
+        justify-content: space-between;
+        padding: 25px 60px;
     }
 }

@@ -9,8 +9,6 @@
     line-height: 1.5em;
     padding: 30px 0 10px 0;
     .connect-info {
-        // border-bottom: 1px solid gray;
-        // margin: 0 20px;
         @include width-90;
         padding: 0 0 40px 0;
         h3 {
@@ -36,10 +34,16 @@
             .form-submit {
                 @include button-blue;
                 font-family: $font-regular;
-                padding: 15px 40px;
+                padding: 10px 35px;
                 margin: 10px auto;
+                cursor: pointer;
             }
         }
+    }
+    hr { 
+        border-top: .5px solid #d1d4d5;
+        width: 50%;
+        margin: 0 auto 40px auto;
     }
     .contact-info {
         h4 {
@@ -57,6 +61,7 @@
                 strong {
                     font-family: font-extra-bold;
                     color: $dark-blue;
+                    letter-spacing: 1px;
                 }
             }
         }
@@ -81,6 +86,56 @@
                 font-family: $font-bold;
                 font-size: .9em;
             }
+        }
+    }
+}
+
+@include tablet-portrait {
+    .connect {
+        margin: -50px auto 0 auto;
+        position: relative;
+        z-index: 3;
+    }
+}
+
+@include tablet-landscape {
+    .connect {
+        margin: -60px auto 0 auto;
+        hr {
+            display: none;
+        }
+        @include flexbox-row;
+        justify-content: center;
+        padding: 60px;
+        .connect-info {
+            border-right: .5px solid #d1d4d5;
+            padding: 0 40px;
+            form {
+                @include align-left;
+            }
+        }
+        .contact-info {
+            @include align-left;
+            width: 50%;
+            padding: 0 50px;
+        }
+    }
+}
+
+@include desktop {
+    .connect {
+        margin: -70px auto 0 auto;
+        .contact-info {
+            padding: 0 60px;
+        }
+    }
+}
+
+@include large-desktop {
+    .connect {
+        padding: 70px;
+        .contact-info {
+            padding: 0 70px;
         }
     }
 }

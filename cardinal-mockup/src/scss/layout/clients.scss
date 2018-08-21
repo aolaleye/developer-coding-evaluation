@@ -44,41 +44,42 @@
             }
         }
     }
-
 }
 
 @include tablet-portrait {
     .clients {
         .clients-container {
             @include width-90;
-            @include flexbox-row;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 160px 160px;
+            grid-gap: 10px 15px;
             padding: 0;
             margin: -60px auto 40px auto;
             :nth-child(6) {
                 order: 5;
             }
             .client-info {
-                width: 37%;
-                flex-grow: 2;
-                padding: 30px 20px;
-                margin: 1%;
-                line-height: 1em;
+                border: 1px solid #383d4a;
+                width: 100%;
+                margin: 0;
+                grid-column-start: 1;
+                grid-column-end: 3;
+                line-height: 1.1em;
                 @include align-left;
+                padding: 30px 0;
                 h3 {
-                    @include width-90;
+                    width: 80%;
                     margin: 0 auto 15px auto;
                 }
                 p {
+                    width: 80%;
                     font-size: .7em;
                 }
             }
             .client-logo {
-                flex-grow: 1;
-                width: 20%;
-                height: 100%;
-                margin: 1%;
-                padding: 4.5% 0;
+                width: 100%;
+                margin: 0;
                 .fifththird {
                     max-width: 80%;
                 }
@@ -99,7 +100,65 @@
                 }
             }
         }
-    
     }
+}
 
+@include tablet-landscape {
+    .clients {
+        .clients-container {
+            .client-info {
+                padding: 22px 0;
+                h3 {
+                    font-size: 1.1em;
+                }
+                p {
+                    font-size: $font-xsmall;
+                    line-height: 1.5em;
+                }
+            }
+        }
+    }
+}
+
+@include desktop {
+    .clients {
+        padding: 0 0 55px 0; 
+        .clients-container {
+            grid-template-rows: 220px 220px;
+            grid-gap: 20px;
+            margin: -80px auto 40px auto;
+            .client-info {
+                line-height: 1.7em;
+                @include align-left;
+                padding: 30px 0;
+                h3 {
+                    width: 70%;
+                    font-size: 1.3em;
+                }
+                p {
+                    width: 70%;
+                    font-size: 1em;
+                    line-height: 1.7em;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+@include large-desktop {
+    .clients {
+        .clients-container {
+            grid-template-rows: 240px 240px;
+            .client-info {
+                padding: 45px 0;
+                h3 {
+                    width: 70%;
+                }
+                p {
+                    width: 70%;
+                }
+            }
+        }
+    }
 }
