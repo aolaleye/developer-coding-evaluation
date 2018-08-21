@@ -13,9 +13,11 @@ const Connect = () => (
                 <br/>
                 <textarea className="form-input" name="message" rows="8" cols="20" placeholder="Message"/>
                 <br/>
-                <input className="form-submit" type="submit" value="Submit"/>
+                <input className="form-submit" type="submit" value="Submit" aria-label="Submit"/>
             </form>
         </section>
+
+        <hr/>
 
         <section className="contact-info">
             <div className="contact-person">
