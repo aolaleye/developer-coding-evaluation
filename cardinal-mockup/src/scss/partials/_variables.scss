@@ -1,8 +1,8 @@
 @import '../base/typography.scss';
 
-// ------------------
-// FONTS
-// ------------------
+/*------------------
+Font Styles
+------------------*/
 // font-family
 $font-light: Effra-Light;
 $font-regular: Effra-Regular;
@@ -19,18 +19,19 @@ $font-large: 1.7em;
 $dark-blue: #18203d;
 
 
-// ------------------
-// IMAGES
-// ------------------
+/*------------------
+Images
+------------------*/
 // background-image
 $header-background: url("../assets/images/pic-hero.png");
 $gojo-background: url("../assets/images/pic-gojo-bg.png");
 $fifththird-background: url("../assets/images/pic-fifththird-bg.png");
 $chhn-background: url("../assets/images/pic-chhn-bg.png");
 
-// ------------------
-// MEDIA QUERIES
-// ------------------
+
+/*------------------
+Media Queries
+------------------*/
 // mobile portrait
 $mobile-landscape: 576px;
 // tablet portrait

@@ -70,7 +70,7 @@
             h4 {
                 margin: 0 auto;
             }
-            address {
+            p {
                 margin: 10px auto 10px auto;
                 font-style: normal;
                 font-size: .95em;
@@ -85,14 +85,19 @@
                 color: #0085d9;
                 font-family: $font-bold;
                 font-size: .9em;
+                transition: all .2s ease-out;
                 &:hover,
                 &:focus {
-                    color: #02467b;
+                    color: $dark-blue;
                 }
             }
         }
     }
 }
+
+/* ----------------------------------
+ media queries for tablets and larger
+---------------------------------- */
 
 @include tablet-portrait {
     .connect {
@@ -101,6 +106,8 @@
         z-index: 3;
     }
 }
+
+// the form and contact information sections change from column to a side-by-side layout
 
 @include tablet-landscape {
     .connect {

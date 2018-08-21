@@ -16,6 +16,18 @@
             img {
                 width: 2.6em;
             }
+            h3 {
+                color: $dark-blue;
+                text-shadow: 0px 0px #18203d;
+                font-size: $font-medium;
+                margin: 12px auto;
+            }
+            p {
+                margin: 0 auto;
+                font-size: $font-xsmall;
+                line-height: 1.5em;
+            }
+            // hover animations for icons
             .bi {
                 &:hover {
                     transition: all .4s ease-out;
@@ -34,20 +46,15 @@
                     transform: scale(1.1);
                 }
             }
-            h3 {
-                color: $dark-blue;
-                text-shadow: 0px 0px #18203d;
-                font-size: $font-medium;
-                margin: 12px auto;
-            }
-            p {
-                margin: 0 auto;
-                font-size: $font-xsmall;
-                line-height: 1.5em;
-            }
         }
     }
 }
+
+/* ----------------------------------
+ media queries for tablets and larger
+---------------------------------- */
+
+// solutions layout changes from column to row
 
 @include tablet-portrait {
     .solutions {

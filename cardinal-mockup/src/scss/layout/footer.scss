@@ -18,6 +18,12 @@
     }
 }
 
+/* ----------------------------------
+ media queries for tablets and larger
+---------------------------------- */
+
+// the footer paragraph and the group of social icons change from being stacked to being on opposite ends of the footer
+
 @include tablet-landscape {
     .footer {
         @include flexbox-row;

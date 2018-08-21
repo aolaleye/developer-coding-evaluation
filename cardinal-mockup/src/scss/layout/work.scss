@@ -81,6 +81,12 @@
     }
 }
 
+/* ----------------------------------
+ media queries for tablets and larger
+---------------------------------- */
+
+// the layout of each case study changes from column to side-by-side
+
 @include tablet-portrait {
     .work {
         article {

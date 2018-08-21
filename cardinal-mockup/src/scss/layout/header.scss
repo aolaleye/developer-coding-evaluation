@@ -25,6 +25,12 @@
     }
 }
 
+/* ----------------------------------
+ media queries for tablets and larger
+---------------------------------- */
+
+// title font increases and cardinal logo is moved from center to the top left corner
+
 @include tablet-portrait {
     .header {
         min-height: 370px;

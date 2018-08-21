@@ -46,6 +46,12 @@
     }
 }
 
+/* ----------------------------------
+ media queries for tablets and larger
+---------------------------------- */
+
+// clients layout changes from column to row
+
 @include tablet-portrait {
     .clients {
         .clients-container {
