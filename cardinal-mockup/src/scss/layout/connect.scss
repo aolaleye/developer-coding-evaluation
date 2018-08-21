@@ -85,6 +85,10 @@
                 color: #0085d9;
                 font-family: $font-bold;
                 font-size: .9em;
+                &:hover,
+                &:focus {
+                    color: #02467b;
+                }
             }
         }
     }
