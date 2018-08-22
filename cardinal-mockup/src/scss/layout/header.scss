@@ -52,10 +52,10 @@
             }
             h2 {
                 @include align-center;
-                @include width-80;
+                @include width-70;
                 line-height: 1.5em;
                 margin: 60px auto 0 auto;
-                font-size: 2.7em;
+                font-size: 2.5em;
             }
         }
     }
@@ -67,6 +67,7 @@
         div {
             h2 {
                 font-size: 2.9em;
+                letter-spacing: 2px;
             }
         }
     }
@@ -77,6 +78,7 @@
         min-height: 410px;
         div {
             h2 {
+                width: 65%;
                 font-size: 3.3em;
                 margin: 75px auto 0 auto;
             }

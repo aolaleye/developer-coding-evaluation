@@ -54,7 +54,7 @@
  media queries for tablets and larger
 ---------------------------------- */
 
-// solutions layout changes from column to row
+// layout changes from column to row
 
 @include tablet-portrait {
     .solutions {
@@ -72,11 +72,14 @@
 
                 }
                 h3 {
-                    font-size: 1.1em;
+                    font-size: 1.05em;
                     margin: 0 0 12px 30px;
                 }
                 p {
                     margin: 0 0 0 30px;
+                }
+                .ba {
+                    width: 1.2em;
                 }
             }
         }
@@ -105,6 +108,9 @@
                     margin: 0 0 12px 50px;
                     line-height: 1.7em;
                 }
+                .ba {
+                    width: 1.7em;
+                }
             }
         }
     }
@@ -126,6 +132,9 @@
                 p {
                     font-size: 1em;
                     margin: 0 0 12px 53px;
+                }
+                .ba {
+                    width: 2em;
                 }
             }
         }
