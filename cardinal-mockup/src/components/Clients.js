@@ -25,8 +25,8 @@ const Clients = () => (
 
         {/* loops through the clients array to create a div for each logo */}
         {clients.map((client, i) => (
-            <div className="client-logo">
-                <img key={i} src={client.logo} alt={client.name} className={client.class}/>
+            <div key={i} className="client-logo">
+                <img src={client.logo} alt={client.name} className={client.class}/>
             </div>
         ))}
 
