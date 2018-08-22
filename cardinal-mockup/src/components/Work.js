@@ -7,7 +7,7 @@ const Work = () => (
     <section className="work">
 
         <article className="work-gojo">
-            <img src={gojo} alt="a container of purell sanitizer and a phone using a medical app"/>
+            <img src={gojo} alt="a container of purell sanitizer and a phone showing a medical app"/>
             <div>
                 <h3>Gojo</h3>
                 <h4>Internet of Things</h4>
@@ -17,7 +17,7 @@ const Work = () => (
         </article>
 
         <article className="work-fifththird">
-            <img src={fifththird} alt="a phone using the fifth third bank app"/>
+            <img src={fifththird} alt="a phone showing the fifth third bank mobile app"/>
             <div>
                 <h3>Fifth Third Bank</h3>
                 <h4>Mobile App</h4>
@@ -27,7 +27,7 @@ const Work = () => (
         </article>
 
         <article className="work-chhn">
-            <img src={chhn} alt="a phone, tablet and desktop using the christ hospital health network website"/>
+            <img src={chhn} alt="a phone, tablet and desktop showing the christ hospital health network website"/>
             <div>
                 <h3>The Christ Hospital Health Network</h3>
                 <h4>Digital Platform</h4>

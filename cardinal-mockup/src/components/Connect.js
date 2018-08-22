@@ -5,7 +5,7 @@ const Connect = () => (
 
         <section className="connect-info">
             <h3>Connect With Us</h3>
-            <p>Have a question or just want to chat?<br/>Get in touch.</p>
+            <p>Have a question or just want to chat? <br/>Get in touch.</p>
             <form>
                 <input className="form-input" type="text" name="name" placeholder="Name"/>
                 <br/>
