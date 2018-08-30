@@ -6,7 +6,7 @@ const Header = () => (
 
         <div>
             <img src={logo} alt="cardinal"/>
-            <h2>Enjoy the proven success of our experience.</h2>
+            <h2>Enjoy the proven success<br/>of our experience.</h2>
         </div>
         
     </header>

@@ -29,7 +29,7 @@ const Work = () => (
         <article className="work-chhn">
             <img src={chhn} alt="a phone, tablet and desktop showing the christ hospital health network website"/>
             <div>
-                <h3>The Christ Hospital Health Network</h3>
+                <h3>The Christ Hospital<br/>Health Network</h3>
                 <h4>Digital Platform</h4>
                 <p>A digital front door to the finest patient experiences.</p>
                 <button>Learn More</button>
