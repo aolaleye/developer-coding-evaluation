@@ -15,6 +15,7 @@
             width: 10.3em;
         }
         h2 {
+            width: 100%;
             color: white;
             font-family: $font-regular;
             letter-spacing: .3px;
@@ -39,23 +40,36 @@
     }
 }
 
+@include mobile-landscape {
+    .header {
+        div {
+            h2 {
+                letter-spacing: 1px;
+                font-size: 2em;
+            }
+        }
+    }
+}
+
 // title font increases and the cardinal logo is moved from the center to the top left corner of the header
 
 @include tablet-portrait {
     .header {
         min-height: 370px;
         div {
+            width: 85%;
             @include align-left;
-            padding: 30px 0 0 0;
+            padding: 40px 0 0 0;
             img {
                 width: 7em;
             }
             h2 {
                 @include align-center;
-                @include width-80;
+                width: 100%;
                 line-height: 1.5em;
                 margin: 60px auto 0 auto;
-                font-size: 2.5em;
+                font-size: 2.9em;
+                letter-spacing: 1px;
             }
         }
     }
@@ -66,9 +80,8 @@
         min-height: 380px;
         div {
             h2 {
-                width: 70%;
                 font-size: 2.9em;
-                letter-spacing: 2px;
+                letter-spacing: 1px;
             }
         }
     }
@@ -76,12 +89,15 @@
 
 @include desktop {
     .header {
-        min-height: 410px;
+        min-height: 600px;
         div {
+            img {
+                width: 9em;
+            }
             h2 {
-                width: 65%;
-                font-size: 3.3em;
-                margin: 75px auto 0 auto;
+                font-size: 4em;
+                letter-spacing: 3px;
+                margin: 125px auto 0 auto;
             }
         }
     }
