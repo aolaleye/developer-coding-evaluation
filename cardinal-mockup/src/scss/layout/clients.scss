@@ -130,41 +130,58 @@
     .clients {
         padding: 0 0 55px 0; 
         .clients-container {
-            grid-template-rows: 220px 220px;
-            grid-gap: 20px;
+            grid-template-rows: 280px 280px;
+            grid-gap: 25px;
             margin: -80px auto 40px auto;
             .client-info {
                 line-height: 1.7em;
                 @include align-left;
-                padding: 30px 0;
+                padding: 50px 0 30px 0;
                 h3 {
-                    width: 70%;
-                    font-size: 1.3em;
+                    font-size: 1.7em;
+                    margin: 0 auto 25px auto;
                 }
                 p {
-                    width: 70%;
-                    font-size: 1em;
+                    font-size: 1.2em;
                     line-height: 1.7em;
-                    margin: 0 auto;
+                }
+            }
+            .client-logo {
+                .fifththird {
+                    width: 75%;
+                }
+                .chhn {
+                    width: 75%;
+                }
+                .chs {
+                    width: 75%;
+                }
+                .skanska {
+                    width: 75%;
+                }
+                .pg {
+                    width: 60%;
+                }
+                .rackroom {
+                    width: 60%;
                 }
             }
         }
     }
 }
 
-@include large-desktop {
-    .clients {
-        .clients-container {
-            grid-template-rows: 240px 240px;
-            .client-info {
-                padding: 45px 0;
-                h3 {
-                    width: 70%;
-                }
-                p {
-                    width: 70%;
-                }
-            }
-        }
-    }
-}
+// @include large-desktop {
+//     .clients {
+//         .clients-container {
+//             .client-info {
+//                 padding: 45px 0;
+//                 h3 {
+//                     width: 70%;
+//                 }
+//                 p {
+//                     width: 70%;
+//                 }
+//             }
+//         }
+//     }
+// }
