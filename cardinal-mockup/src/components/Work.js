@@ -11,7 +11,7 @@ const Work = () => (
             <div>
                 <h3>Gojo</h3>
                 <h4>Internet of Things</h4>
-                <p>Reducing the spread of hospital infections with the internet of Things.</p>
+                <p>Reducing the spread of hospital<br/> infections with the internet of Things.</p>
                 <button>Learn More</button>
             </div>
         </article>
@@ -21,7 +21,7 @@ const Work = () => (
             <div>
                 <h3>Fifth Third Bank</h3>
                 <h4>Mobile App</h4>
-                <p>Reimagine what a mobile banking experience should be, focusing on the user rather than the technology.</p>
+                <p>Reimagine what a mobile banking<br/> experience should be, focusing on the<br/> user rather than the technology.</p>
                 <button>View App</button>
             </div>
         </article>
@@ -31,7 +31,7 @@ const Work = () => (
             <div>
                 <h3>The Christ Hospital<br/>Health Network</h3>
                 <h4>Digital Platform</h4>
-                <p>A digital front door to the finest patient experiences.</p>
+                <p>A digital front door to the finest patient<br/> experiences.</p>
                 <button>Learn More</button>
             </div>
         </article>
