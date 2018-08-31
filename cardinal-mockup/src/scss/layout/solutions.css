@@ -1,0 +1,107 @@
+@font-face {
+  font-family: Effra-Light;
+  src: url("../assets/fonts/Effra_Std_Lt.ttf"); }
+
+@font-face {
+  font-family: Effra-Regular;
+  src: url("../assets/fonts/Effra_Std_Rg.ttf"); }
+
+@font-face {
+  font-family: Effra-Medium;
+  src: url("../assets/fonts/Effra_Std_Md.ttf"); }
+
+@font-face {
+  font-family: Effra-Bold;
+  src: url("../assets/fonts/Effra_Std_Bd.ttf"); }
+
+/*------------------
+Font Styles
+------------------*/
+/*------------------
+Images
+------------------*/
+/*------------------
+Media Queries
+------------------*/
+.solutions {
+  background-color: #f0f0f0;
+  text-align: center;
+  letter-spacing: .4px;
+  padding: 25px 0 130px 0; }
+  .solutions div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto; }
+    .solutions div article {
+      font-family: Effra-Light;
+      width: 70%;
+      margin: auto;
+      padding: 15px 0; }
+      .solutions div article img {
+        width: 2.6em; }
+      .solutions div article h3 {
+        color: #18203d;
+        text-shadow: 0px 0px #18203d;
+        font-size: 1.3em;
+        margin: 12px auto; }
+      .solutions div article p {
+        margin: 0 auto;
+        font-size: 0.85em;
+        line-height: 1.5em; }
+      .solutions div article .bi:hover {
+        transition: all .4s ease-out;
+        transform: rotateZ(360deg); }
+      .solutions div article .ad:hover {
+        transition: all .8s ease-out;
+        transform: rotateY(360deg); }
+      .solutions div article .ba:hover {
+        transition: all .3s ease-out;
+        transform: scale(1.1); }
+
+/* ----------------------------------
+ media queries for tablets and larger
+---------------------------------- */
+@media (min-width: 760px) {
+  .solutions {
+    padding: 25px 0 70px 0; }
+    .solutions div {
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      margin: auto; }
+      .solutions div article {
+        text-align: left;
+        padding: 15px 0;
+        margin: 0 1.5%; }
+        .solutions div article img {
+          width: 1.4em;
+          float: left; }
+        .solutions div article h3 {
+          font-size: 1.05em;
+          margin: 0 0 12px 30px; }
+        .solutions div article p {
+          margin: 0 0 0 30px; }
+        .solutions div article .ba {
+          width: 1.2em; } }
+
+@media (min-width: 1200px) {
+  .solutions {
+    padding: 25px 0 90px 0; }
+    .solutions div article {
+      text-align: left;
+      padding: 25px 0;
+      margin: 0 1%; }
+      .solutions div article img {
+        width: 2.5em;
+        float: left; }
+      .solutions div article h3 {
+        font-size: 1.7em;
+        letter-spacing: 1px;
+        margin: 0 0 15px 55px; }
+      .solutions div article p {
+        font-size: 1.2em;
+        margin: 0 0 12px 55px;
+        line-height: 1.7em; }
+      .solutions div article .ba {
+        width: 2.1em; } }

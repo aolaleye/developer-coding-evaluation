@@ -1,0 +1,150 @@
+@font-face {
+  font-family: Effra-Light;
+  src: url("../assets/fonts/Effra_Std_Lt.ttf"); }
+
+@font-face {
+  font-family: Effra-Regular;
+  src: url("../assets/fonts/Effra_Std_Rg.ttf"); }
+
+@font-face {
+  font-family: Effra-Medium;
+  src: url("../assets/fonts/Effra_Std_Md.ttf"); }
+
+@font-face {
+  font-family: Effra-Bold;
+  src: url("../assets/fonts/Effra_Std_Bd.ttf"); }
+
+/*------------------
+Font Styles
+------------------*/
+/*------------------
+Images
+------------------*/
+/*------------------
+Media Queries
+------------------*/
+.clients {
+  padding: 0 0 10px 0; }
+  .clients .clients-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .clients .clients-container .client-info {
+      width: 90%;
+      margin: auto;
+      letter-spacing: .9px;
+      line-height: 1.5em;
+      font-family: Effra-Light;
+      background-color: #383d4a;
+      color: white;
+      padding: 50px 0;
+      margin: -110px auto 10px auto;
+      box-shadow: 0px 0px 20px 3px #cacaca; }
+      .clients .clients-container .client-info h3 {
+        margin: 0 auto 15px auto; }
+      .clients .clients-container .client-info p {
+        width: 90%;
+        margin: auto;
+        font-size: 0.85em; }
+    .clients .clients-container .client-logo {
+      background-color: #fff;
+      width: 90%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #eaebed;
+      margin: 1.5% auto;
+      min-height: 90px; }
+      .clients .clients-container .client-logo .skanska {
+        max-width: 40%; }
+      .clients .clients-container .client-logo .pg {
+        max-width: 23%; }
+      .clients .clients-container .client-logo .rackroom {
+        max-width: 18%; }
+
+/* ----------------------------------
+ media queries for tablets and larger
+---------------------------------- */
+@media (min-width: 760px) {
+  .clients .clients-container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 160px 160px;
+    grid-gap: 10px 15px;
+    padding: 0;
+    margin: -60px auto 40px auto; }
+    .clients .clients-container :nth-child(6) {
+      order: 5; }
+    .clients .clients-container .client-info {
+      border: 1px solid #383d4a;
+      width: 100%;
+      margin: 0;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      line-height: 1.1em;
+      text-align: left;
+      padding: 30px 0; }
+      .clients .clients-container .client-info h3 {
+        width: 80%;
+        margin: 0 auto 15px auto; }
+      .clients .clients-container .client-info p {
+        width: 80%;
+        font-size: .7em; }
+    .clients .clients-container .client-logo {
+      width: 100%;
+      margin: 0; }
+      .clients .clients-container .client-logo .fifththird {
+        max-width: 80%; }
+      .clients .clients-container .client-logo .chhn {
+        max-width: 80%; }
+      .clients .clients-container .client-logo .chs {
+        max-width: 80%; }
+      .clients .clients-container .client-logo .skanska {
+        max-width: 80%; }
+      .clients .clients-container .client-logo .pg {
+        max-width: 50%; }
+      .clients .clients-container .client-logo .rackroom {
+        max-width: 50%; } }
+
+@media (min-width: 992px) {
+  .clients .clients-container .client-info {
+    padding: 22px 0; }
+    .clients .clients-container .client-info h3 {
+      font-size: 1.1em; }
+    .clients .clients-container .client-info p {
+      font-size: 0.85em;
+      line-height: 1.5em; } }
+
+@media (min-width: 1200px) {
+  .clients {
+    padding: 0 0 55px 0; }
+    .clients .clients-container {
+      grid-template-rows: 280px 280px;
+      grid-gap: 25px;
+      margin: -80px auto 40px auto; }
+      .clients .clients-container .client-info {
+        line-height: 1.7em;
+        text-align: left;
+        padding: 50px 0 30px 0; }
+        .clients .clients-container .client-info h3 {
+          font-size: 1.7em;
+          margin: 0 auto 25px auto; }
+        .clients .clients-container .client-info p {
+          font-size: 1.2em;
+          line-height: 1.7em; }
+      .clients .clients-container .client-logo .fifththird {
+        width: 75%; }
+      .clients .clients-container .client-logo .chhn {
+        width: 75%; }
+      .clients .clients-container .client-logo .chs {
+        width: 75%; }
+      .clients .clients-container .client-logo .skanska {
+        width: 75%; }
+      .clients .clients-container .client-logo .pg {
+        width: 60%; }
+      .clients .clients-container .client-logo .rackroom {
+        width: 60%; } }

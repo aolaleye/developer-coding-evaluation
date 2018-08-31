@@ -1,0 +1,152 @@
+@font-face {
+  font-family: Effra-Light;
+  src: url("../assets/fonts/Effra_Std_Lt.ttf"); }
+
+@font-face {
+  font-family: Effra-Regular;
+  src: url("../assets/fonts/Effra_Std_Rg.ttf"); }
+
+@font-face {
+  font-family: Effra-Medium;
+  src: url("../assets/fonts/Effra_Std_Md.ttf"); }
+
+@font-face {
+  font-family: Effra-Bold;
+  src: url("../assets/fonts/Effra_Std_Bd.ttf"); }
+
+/*------------------
+Font Styles
+------------------*/
+/*------------------
+Images
+------------------*/
+/*------------------
+Media Queries
+------------------*/
+.connect {
+  background-color: #eeeeee;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: .3px;
+  line-height: 1.5em;
+  padding: 30px 0 10px 0; }
+  .connect .connect-info {
+    width: 90%;
+    margin: auto;
+    padding: 0 0 40px 0; }
+    .connect .connect-info h3 {
+      margin: 20px auto 0 auto;
+      color: #18203d;
+      font-size: 1.65em;
+      text-shadow: 0px 0px #18203d; }
+    .connect .connect-info p {
+      margin: 15px auto 30px auto;
+      letter-spacing: .3px; }
+    .connect .connect-info form .form-input {
+      font-family: Effra-Light;
+      font-size: 1em;
+      width: 90%;
+      margin: auto;
+      padding: 15px 15px;
+      border: 1px solid #a9a9a9;
+      border-radius: 5px;
+      margin: 8px auto; }
+    .connect .connect-info form .form-submit {
+      color: #fff;
+      background-color: #0085d9;
+      border-radius: 4px;
+      border: none;
+      padding: 14px 30px;
+      letter-spacing: .4px;
+      font-family: Effra-Regular;
+      font-size: 1em;
+      cursor: pointer;
+      transition: all .25s ease-in-out;
+      font-family: Effra-Regular;
+      padding: 10px 35px;
+      margin: 10px auto;
+      cursor: pointer; }
+      .connect .connect-info form .form-submit:hover, .connect .connect-info form .form-submit:focus {
+        background-color: #18203d; }
+  .connect hr {
+    border-top: .5px solid #d1d4d5;
+    width: 50%;
+    margin: 0 auto 40px auto; }
+  .connect .contact-info h4 {
+    font-family: Effra-Medium;
+    font-size: 1.05em;
+    color: #18203d; }
+  .connect .contact-info .contact-person h4 {
+    margin: 0 auto 10px auto; }
+  .connect .contact-info .contact-person p {
+    margin: 0 auto;
+    font-size: .95em; }
+    .connect .contact-info .contact-person p strong {
+      font-family: Effra-Medium;
+      color: #18203d;
+      letter-spacing: 1px; }
+  .connect .contact-info .contact-address {
+    margin: 40px auto 30px auto; }
+    .connect .contact-info .contact-address h4 {
+      margin: 0 auto; }
+    .connect .contact-info .contact-address p {
+      margin: 10px auto 10px auto;
+      font-style: normal;
+      font-size: .95em;
+      text-shadow: 0px 0px #4e4e4e; }
+    .connect .contact-info .contact-address iframe {
+      border: 1px solid #a9a9a9;
+      border-radius: 8px;
+      margin: 20px auto; }
+    .connect .contact-info .contact-address a {
+      color: #0085d9;
+      font-family: Effra-Medium;
+      font-size: .9em;
+      transition: all .25s ease-out; }
+      .connect .contact-info .contact-address a:hover, .connect .contact-info .contact-address a:focus {
+        color: #18203d; }
+
+/* ----------------------------------
+ media queries for tablets and larger
+---------------------------------- */
+@media (min-width: 760px) {
+  .connect {
+    margin: -50px auto 0 auto;
+    position: relative;
+    z-index: 3; } }
+
+@media (min-width: 992px) {
+  .connect {
+    margin: -60px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px; }
+    .connect hr {
+      display: none; }
+    .connect .connect-info {
+      border-right: .5px solid #d1d4d5;
+      padding: 0 40px; }
+      .connect .connect-info p br {
+        display: none; }
+      .connect .connect-info form {
+        text-align: left; }
+    .connect .contact-info {
+      text-align: left;
+      width: 50%;
+      padding: 0 50px; } }
+
+@media (min-width: 1200px) {
+  .connect {
+    margin: -70px auto 0 auto; }
+    .connect .connect-info h3 {
+      font-size: 1.7em; }
+    .connect .contact-info {
+      padding: 0 60px; } }
+
+@media (min-width: 1330px) {
+  .connect {
+    padding: 70px; }
+    .connect .contact-info {
+      padding: 0 70px; } }

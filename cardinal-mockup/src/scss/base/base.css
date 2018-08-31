@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Effra-Light;
+  src: url("../assets/fonts/Effra_Std_Lt.ttf"); }
+
+@font-face {
+  font-family: Effra-Regular;
+  src: url("../assets/fonts/Effra_Std_Rg.ttf"); }
+
+@font-face {
+  font-family: Effra-Medium;
+  src: url("../assets/fonts/Effra_Std_Md.ttf"); }
+
+@font-face {
+  font-family: Effra-Bold;
+  src: url("../assets/fonts/Effra_Std_Bd.ttf"); }
+
+/*------------------
+Font Styles
+------------------*/
+/*------------------
+Images
+------------------*/
+/*------------------
+Media Queries
+------------------*/
+body {
+  margin: 0;
+  color: #4e4e4e;
+  font-family: Effra-Light; }
+
+p {
+  text-shadow: 0px 0px #4e4e4e; }
+
+img {
+  max-width: 100%; }

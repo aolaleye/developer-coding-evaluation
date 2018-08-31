@@ -1,0 +1,94 @@
+@font-face {
+  font-family: Effra-Light;
+  src: url("../assets/fonts/Effra_Std_Lt.ttf"); }
+
+@font-face {
+  font-family: Effra-Regular;
+  src: url("../assets/fonts/Effra_Std_Rg.ttf"); }
+
+@font-face {
+  font-family: Effra-Medium;
+  src: url("../assets/fonts/Effra_Std_Md.ttf"); }
+
+@font-face {
+  font-family: Effra-Bold;
+  src: url("../assets/fonts/Effra_Std_Bd.ttf"); }
+
+/*------------------
+Font Styles
+------------------*/
+/*------------------
+Images
+------------------*/
+/*------------------
+Media Queries
+------------------*/
+.header {
+  background-image: url("../assets/images/pic-hero.png");
+  background-color: #055b99;
+  min-height: 335px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 75% 20%; }
+  .header div {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 45px 0 0 0; }
+    .header div img {
+      width: 10.3em; }
+    .header div h2 {
+      width: 100%;
+      color: white;
+      font-family: Effra-Regular;
+      letter-spacing: .3px;
+      line-height: 2em;
+      margin: 60px 0 0 0;
+      font-size: 1.3em; }
+
+/* ----------------------------------
+ media queries for tablets and larger
+---------------------------------- */
+@media (min-width: 350px) {
+  .header div h2 {
+    font-size: 1.6em; } }
+
+@media (min-width: 576px) {
+  .header div h2 {
+    letter-spacing: 1px;
+    font-size: 2em; } }
+
+@media (min-width: 760px) {
+  .header {
+    min-height: 370px; }
+    .header div {
+      width: 85%;
+      text-align: left;
+      padding: 40px 0 0 0; }
+      .header div img {
+        width: 7em; }
+      .header div h2 {
+        text-align: center;
+        width: 100%;
+        line-height: 1.5em;
+        margin: 60px auto 0 auto;
+        font-size: 2.9em;
+        letter-spacing: 1px; } }
+
+@media (min-width: 992px) {
+  .header {
+    min-height: 380px; }
+    .header div h2 {
+      font-size: 2.9em;
+      letter-spacing: 1px; } }
+
+@media (min-width: 1200px) {
+  .header {
+    min-height: 600px;
+    background-position: 75% 100%; }
+    .header div img {
+      width: 11em; }
+    .header div h2 {
+      font-size: 4.5em;
+      letter-spacing: 3px;
+      margin: 110px auto 0 auto; } }

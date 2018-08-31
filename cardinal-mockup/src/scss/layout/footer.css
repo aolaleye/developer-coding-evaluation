@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Effra-Light;
+  src: url("../assets/fonts/Effra_Std_Lt.ttf"); }
+
+@font-face {
+  font-family: Effra-Regular;
+  src: url("../assets/fonts/Effra_Std_Rg.ttf"); }
+
+@font-face {
+  font-family: Effra-Medium;
+  src: url("../assets/fonts/Effra_Std_Md.ttf"); }
+
+@font-face {
+  font-family: Effra-Bold;
+  src: url("../assets/fonts/Effra_Std_Bd.ttf"); }
+
+/*------------------
+Font Styles
+------------------*/
+/*------------------
+Images
+------------------*/
+/*------------------
+Media Queries
+------------------*/
+.footer {
+  background-color: #d8d8d8;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Effra-Regular;
+  font-size: 0.85em;
+  color: #4f4e4e;
+  padding: 25px 0; }
+  .footer .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .footer .social-icons img {
+      margin: 10px 15px;
+      cursor: pointer;
+      transition: all .1s ease-in-out; }
+      .footer .social-icons img:hover {
+        filter: brightness(0) invert(100%); }
+
+/* ----------------------------------
+ media queries for tablets and larger
+---------------------------------- */
+@media (min-width: 992px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 60px; } }
