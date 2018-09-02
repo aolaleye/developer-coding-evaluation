@@ -227,11 +227,11 @@ Media Queries
         width: 2.5em;
         float: left; }
       .solutions div article h3 {
-        font-size: 1.7em;
+        font-size: 1.6em;
         letter-spacing: 1px;
         margin: 0 0 15px 55px; }
       .solutions div article p {
-        font-size: 1.2em;
+        font-size: 1.1em;
         margin: 0 0 12px 55px;
         line-height: 1.7em; }
       .solutions div article .ba {
@@ -368,12 +368,12 @@ Media Queries
       .clients .clients-container .client-info {
         line-height: 1.7em;
         text-align: left;
-        padding: 50px 0 30px 0; }
+        padding: 60px 0 0 0; }
         .clients .clients-container .client-info h3 {
-          font-size: 1.7em;
+          font-size: 1.6em;
           margin: 0 auto 25px auto; }
         .clients .clients-container .client-info p {
-          font-size: 1.2em;
+          font-size: 1.1em;
           line-height: 1.7em; }
       .clients .clients-container .client-logo .fifththird {
         width: 75%; }
@@ -603,11 +603,11 @@ Media Queries
 
 @media (min-width: 1200px) {
   .work article h3 {
-    font-size: 1.7em; }
+    font-size: 1.6em; }
   .work article h4 {
     font-size: .9em; }
   .work article p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.7em; }
   .work article button {
     padding: 15px 35px;
@@ -785,7 +785,7 @@ Media Queries
   .connect {
     margin: -70px auto 0 auto; }
     .connect .connect-info h3 {
-      font-size: 1.7em; }
+      font-size: 1.6em; }
     .connect .contact-info {
       padding: 0 60px; } }
 

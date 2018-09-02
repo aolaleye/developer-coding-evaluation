@@ -213,11 +213,11 @@ Media Queries
 
 @media (min-width: 1200px) {
   .work article h3 {
-    font-size: 1.7em; }
+    font-size: 1.6em; }
   .work article h4 {
     font-size: .9em; }
   .work article p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.7em; }
   .work article button {
     padding: 15px 35px;
