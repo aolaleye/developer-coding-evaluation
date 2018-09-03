@@ -222,7 +222,7 @@ Media Queries
     .solutions div article {
       text-align: left;
       padding: 25px 0;
-      margin: 0 2.5%; }
+      margin: 0 1%; }
       .solutions div article img {
         width: 2.5em;
         float: left; }
@@ -236,6 +236,10 @@ Media Queries
         line-height: 1.7em; }
       .solutions div article .ba {
         width: 2.1em; } }
+
+@media (min-width: 1330px) {
+  .solutions div article {
+    margin: 0 2%; } }
 
 @font-face {
   font-family: Effra-Light;
