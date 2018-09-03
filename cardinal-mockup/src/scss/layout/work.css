@@ -144,9 +144,9 @@ Media Queries
     .work .work-gojo div {
       width: 40%;
       height: 40%;
-      margin: 20px 0 0 25px; }
+      margin: 5% 0 0 25px; }
       .work .work-gojo div p {
-        margin: 10px 100px 10px auto; }
+        margin: 10px auto; }
       .work .work-gojo div button {
         padding: 10px 15px;
         font-size: .7em; }
@@ -165,7 +165,7 @@ Media Queries
     .work .work-fifththird div {
       width: 35%;
       height: 30%;
-      margin: 60px 0 0 60px; }
+      margin: 9% 0 0 60px; }
       .work .work-fifththird div h3 {
         margin: 0 auto 5px 0; }
       .work .work-fifththird div p {
@@ -181,9 +181,11 @@ Media Queries
       height: 50%;
       margin: -50px 0 0 -75px; }
     .work .work-chhn div {
-      width: 50%;
+      width: 40%;
       height: 50%;
-      margin: 0 0 0 20px; }
+      margin: 2% 0 0 70px; }
+      .work .work-chhn div h3 {
+        margin: 0 auto 2px auto; }
       .work .work-chhn div p {
         margin: 10px auto; } }
 
@@ -194,14 +196,14 @@ Media Queries
     padding: 10px 20px;
     font-size: 0.85em; }
   .work .work-gojo div {
-    margin: 60px 0 0 25px; }
+    margin: 8% 0 0 25px; }
     .work .work-gojo div p {
       margin: 10px 150px 10px auto; }
     .work .work-gojo div button {
       padding: 10px 20px;
       font-size: 0.85em; }
   .work .work-fifththird div {
-    margin: 140px 0 0 120px; }
+    margin: 12% 0 0 120px; }
     .work .work-fifththird div p {
       margin: 10px auto 10px auto; }
   .work .work-chhn img {
@@ -209,7 +211,7 @@ Media Queries
   .work .work-chhn div {
     width: 30%;
     height: 30%;
-    margin: 20px 0 0 80px; } }
+    margin: 4% 0 0 80px; } }
 
 @media (min-width: 1200px) {
   .work article h3 {
@@ -223,7 +225,7 @@ Media Queries
     padding: 15px 35px;
     font-size: 1.1em; }
   .work .work-gojo div {
-    margin: 80px 0 0 25px; }
+    margin: 6% 0 0 25px; }
     .work .work-gojo div p {
       margin: 20px auto; }
     .work .work-gojo div button {
@@ -244,10 +246,10 @@ Media Queries
 
 @media (min-width: 1330px) {
   .work .work-gojo div {
-    margin: 120px 0 0 25px; }
+    margin: 9% 0 0 25px; }
   .work .work-fifththird div {
-    margin: 200px 0 0 60px; }
+    margin: 13% 0 0 60px; }
   .work .work-chhn {
     margin: -150px 0 0 0; }
     .work .work-chhn div {
-      margin: 40px 0 0 80px; } }
+      margin: 5% 0 0 80px; } }
