@@ -58,7 +58,7 @@
             @include width-90;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
-            grid-template-rows: 160px 160px;
+            grid-template-rows: 170px 170px;
             grid-gap: 10px 15px;
             padding: 0;
             margin: -60px auto 40px auto;
@@ -73,14 +73,16 @@
                 grid-column-end: 3;
                 line-height: 1.1em;
                 @include align-left;
-                padding: 30px 0;
+                padding: 6% 0 0 0;
                 h3 {
                     width: 80%;
                     margin: 0 auto 15px auto;
+                    font-size: 1.2em;
                 }
                 p {
                     width: 80%;
-                    font-size: .7em;
+                    font-size: $font-xsmall;
+                    line-height: 1.5em;
                 }
             }
             .client-logo {
@@ -112,15 +114,9 @@
 @include tablet-landscape {
     .clients {
         .clients-container {
+            grid-template-rows: 190px 190px;
             .client-info {
-                padding: 22px 0;
-                h3 {
-                    font-size: 1.1em;
-                }
-                p {
-                    font-size: $font-xsmall;
-                    line-height: 1.5em;
-                }
+                padding: 8% 0;
             }
         }
     }
@@ -136,7 +132,7 @@
             .client-info {
                 line-height: 1.7em;
                 @include align-left;
-                padding: 60px 0 0 0;
+                padding: 10% 0 0 0;
                 h3 {
                     font-size: 1.6em;
                     margin: 0 auto 25px auto;
